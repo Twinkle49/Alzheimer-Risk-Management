@@ -1,0 +1,27 @@
+.dialog {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the dialog */
+    width: 400px; /* Adjust the width as needed */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure it's on top of other elements */
+  }
+  
+  .dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    z-index: 999; /* Overlay should be below the dialog */
+  }
+  
+  dialog {
+    border: none; /* Remove default border of dialog */
+  }
+  

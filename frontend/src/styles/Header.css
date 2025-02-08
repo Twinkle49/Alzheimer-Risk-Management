@@ -1,0 +1,45 @@
+.home-header {
+  background-color: #007bff;
+  background-image: url('../background.jpg');
+  color: black;
+  text-align: center;
+  padding: 50px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  position: sticky;  /* Make the header sticky */
+  top: 0;  /* Stick to the top of the viewport */
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.home-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: black;
+}
+
+.home-header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  line-height: 1.5;
+  color: black;
+}
+
+.home-header p strong {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+  .home-header {
+    padding: 30px 15px;
+  }
+
+  .home-header h1 {
+    font-size: 2rem;
+  }
+
+  .home-header p {
+    font-size: 1rem;
+  }
+}

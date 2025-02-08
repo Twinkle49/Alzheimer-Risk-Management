@@ -1,0 +1,44 @@
+.user-profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-decoration:line-through;
+    color: white;
+    background-color: #1164B4;
+    text-decoration-line: underline;
+   
+    font-weight: bold;
+  }
+  
+  
+  .username {
+   
+    font-size: 16px;
+  }
+  
+  .role {
+    
+    font-size: 16px;
+  }
+  
+
+  @media screen and (min-device-width: 500px) and (max-device-width: 700px) {
+    .username{
+      font-size: 12px;
+    }
+
+    .role{
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (min-device-width: 0px) and (max-device-width: 500px) {
+    .username{
+      font-size: 12px;
+    }
+
+    .role{
+      font-size: 12px;
+    }
+  }

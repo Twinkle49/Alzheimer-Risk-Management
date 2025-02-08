@@ -1,0 +1,42 @@
+
+.dialog-title {
+  background-color: #2196f3;
+  color: #fff;
+  padding: 16px;
+  text-align: center;
+
+  .centered-typography {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.dialog-content {
+  padding: 10px;
+  font-weight: bolder;
+  
+}
+
+.dialog-actions {
+  padding: 16px;
+  justify-content: space-between;
+}
+
+.logout-button {
+  background-color: #f50057;
+  color: #fff;
+
+  &:hover {
+    background-color: darken(#f50057, 10%);
+  }
+}
+
+.logout-icon {
+  margin-right: 8px;
+}
+
+.logout-dialog {
+  font-family: sans-serif;
+}

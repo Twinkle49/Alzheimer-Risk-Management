@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; 
+}
+
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  margin-right: auto;
+}
+
+.btn1 {
+  color: white;
+  border: 1px;
+  transition: background-color 0.3s; 
+}
+
+.btn1:hover {
+  color: white;
+  background-color: blue;
+}
+
+.btn1:active {
+  background-color: initial; 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dropbtn:hover {
+  background-color: rgb(21, 0, 255);
+  color: #f9f9f9;
+}
+
+.dropdown-content {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  color: black !important;
+  border: 0 !important;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  text-align: center;
+
+  a {
+    color: black !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border: 0 !important;
+  }
+}
+
+#drop .dropdown-content a {
+  color: black !important;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+  text-align: center;
+  border: 0 !important;
+}
+
+mark {
+  background-color: #1e90ff;
+}
+
+#module_name{
+  font-size: 1.5rem;
+  color:#f9f9f9;
+  text-align: center;
+}
+
+
+#navlist1{
+display:flex;
+-ms-flex-align: end;
+
+}
+.btn2{
+  justify-content: end;
+ text-align:end;
+}
+
+@media only screen and (max-width: 998px){
+  .btn1{
+    height: auto !important;
+    width: auto !important;
+  }
+
+  #module_name{
+    font-size: 1.2rem;
+    text-align: center;
+   }
+  #navlist1{
+    height: auto !important;
+    width: auto !important;
+  
+  }
+  
+
+}
+
+@media screen and (min-device-width: 500px) and (max-device-width: 700px) { 
+
+  .btn1{
+   height:5%;
+   width: 5%;
+   padding:2%; 
+
+  }
+
+  #module_name{
+  font-size: 1rem;
+ 
+}
+
+#navlist1{
+  display:flex;
+  flex-wrap: nowrap;
+  height: 3%;
+  width: 3%;
+
+}
+
+
+
+}
+
+@media screen and (min-device-width: 0px) and (max-device-width: 500px) { 
+
+  .btn1{
+   height:2%;
+   width: 2%;
+   padding:0.5%; 
+
+  }
+
+#module_name{
+  font-size: 0.75rem;
+  text-align: left;
+}
+
+#navlist1{
+  height:1%;
+  width: 1%;
+  padding:0.5%; 
+}
+
+
+
+}
+
+#btn2{
+  color:white;
+}
+
+.navbar-left {
+  display: flex;
+  flex-direction: column; /* Aligns buttons vertically */
+  align-items: flex-start; /* Aligns the buttons to the left */
+}
+
+.navbar-right {
+  display: flex;
+  flex-direction: column; /* Aligns buttons vertically */
+  align-items: flex-end; /* Aligns the buttons to the right */
+}
+
+.navbar-left li, .navbar-right li {
+  margin-bottom: 10px; /* Add some space between the buttons */
+}
