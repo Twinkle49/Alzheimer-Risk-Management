@@ -100,4 +100,4 @@ This project is licensed under the MIT License.
 
 ---
 
-This README covers everything from setup to API usage. Let me know if you need any modifications! 🚀
+This README covers everything about setup. Let me know if you need any modifications! 🚀
